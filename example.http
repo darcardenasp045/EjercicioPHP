@@ -1,2 +1,12 @@
-GET https://localhost/2771446G1/EjercicioPHP/consulta2.php?id=1
+DELETE  https://localhost/2771446G1/EjercicioPHP/eliminarTodos.php?id=1
+
+######
+
+GET https://localhost/2771446G1/EjercicioPHP/consultaTodos.php
+
+
+######
+
+GET https://localhost/2771446G1/EjercicioPHP/consulta[id].php?id=1
+
 
