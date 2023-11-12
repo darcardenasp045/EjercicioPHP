@@ -4,6 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Registro</title>
+    <style>
+        body{
+            font-family: Arial;
+            background-color:#f2f4f6;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            overflow-x: auto;
+            flex-direction: column;
+            gap: 10px;
+        
+        }
+    </style>
 </head>
 <body>
     <h2>Registro de Usuario</h2>
@@ -35,6 +48,7 @@
         <input type="search" name="id" required><br>
         <input type="submit" value="Buscar">
     </form>
+    <h2>Eliminar Usuario</h2>
     <form action="eliminarTodos[id].php" method="get">
         <p>Ingrese el id del usuario a eliminar:</p>
         <input type="search" name="id" required><br>
