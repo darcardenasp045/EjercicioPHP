@@ -42,6 +42,7 @@ if (isset($_GET['id'])) {
         }
 
         echo "</table>";
+        echo '<a href="/2771446G1/EjercicioPHP/index.html">Regresar al Home</a>';
     } else {
         echo "No hay registros en la base de datos.";
     }
